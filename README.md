@@ -36,3 +36,11 @@ By joining tables and pinpointing columns, Queries were created from the table s
 
 
     In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+I also was able to locate myself upon the request of my boss. My new name is April Foolsday.
+    
+    select employees.emp_no, 
+    employees.last_name,
+    employees.first_name
+    from employees
+    where employees.emp_no = 499942;    

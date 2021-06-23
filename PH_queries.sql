@@ -85,3 +85,9 @@ from employees
 group by last_name
 order by freq_count desc;
 
+--search myself - 499942
+select employees.emp_no, 
+employees.last_name,
+employees.first_name
+from employees
+where employees.emp_no = 499942;
